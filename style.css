@@ -1,0 +1,138 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 80px;
+  background-color: #ffffff; /* ⬅️ ALTERE */
+}
+
+h2 {
+    img {
+        width: 86px;
+        height: 20px;
+    }
+
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.links a {
+  color: black; /* ⬅️ ALTERE */
+  text-transform: uppercase;
+}
+
+.hero {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #767676; /* ⬅️ ALTERE */
+  background-image: url(./assets/fundo1.png);
+  background-size: cover;
+}
+
+.hero h1 {
+  color: #434343; /* ⬅️ ALTERE */
+  font-size: 64px;
+}
+
+.cards {
+  padding: 80px 0px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.card {
+  width: 250px;
+  padding: 22px;
+  background: #f3f3f3; /* ⬅️ ALTERE */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card-img-01 {
+  width: 206px;
+  height: 190px;
+  background-image: url(./assets/porq3.webp);
+  background-size: cover;
+}
+
+.card-img-02 {
+    width: 206px;
+    height: 190px;
+    background-image: url(./assets/grafico.webp);
+    background-size: cover;
+    background-color: #f3f3f3;
+}
+
+.card-img-03 {
+    width: 206px;
+    height: 190px;
+    background-image: url(./assets/dindin.webp);
+    background-size: cover;
+}
+
+.card-img-04 {
+    width: 206px;
+    height: 190px;
+    background-image: url(./assets/emprestimo.webp);
+    background-size: cover;
+}
+
+.card-img-05 {
+    width: 200px;
+    height: 190px;
+    background-image: url(./assets/compras.webp);
+    background-size: cover;
+}
+
+.card-img-06 {
+    width: 200px;
+    height: 190px;
+    background-image: url(./assets/financas.jpg);
+    background-size: cover;
+}
+
+.card-img-07 {
+    width: 200px;
+    height: 190px;
+    background-image: url(./assets/brilho.png);
+}
+
+.card-img-08 {
+    width: 200px;
+    height: 190px;
+    background-image: url(./assets/l2.webp);
+    background-size: cover;
+}
+
+.card-img-09 {
+    width: 200px;
+    height: 190px;
+    background-image: url(./assets/termos.avif);
+    background-size: cover;
+}
+
+footer {
+  padding: 30px 0px;
+  background-color: #070718; /* ⬅️ ALTERE */
+  text-align: center;
+  color: white;
+}
